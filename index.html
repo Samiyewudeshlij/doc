@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sidebars.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-3">
+        <div class="p-3 bg-white" style="width: 280px">
+          <a
+            href="/"
+            class="
+              d-flex
+              align-items-center
+              pb-3
+              mb-3
+              link-dark
+              text-decoration-none
+              border-bottom
+            "
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-5 fw-semibold">Collapsible</span>
+          </a>
+          <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#home-collapse"
+                aria-expanded="true"
+              >
+                Home
+              </button>
+              <div class="collapse show" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded">Overview</a></li>
+                  <li><a href="#" class="link-dark rounded">Udates</a></li>
+                  <li><a href="#" class="link-dark rounded">Reports</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#dashboard-collapse"
+                aria-expanded="false"
+              >
+                Dashboard
+              </button>
+              <div class="collapse" id="dashboard-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded">Overview</a></li>
+                  <li><a href="#" class="link-dark rounded">Weekly</a></li>
+                  <li><a href="#" class="link-dark rounded">Monthly</a></li>
+                  <li><a href="#" class="link-dark rounded">Annually</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#orders-collapse"
+                aria-expanded="false"
+              >
+                Orders
+              </button>
+              <div class="collapse" id="orders-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded">New</a></li>
+                  <li><a href="#" class="link-dark rounded">Processed</a></li>
+                  <li><a href="#" class="link-dark rounded">Shipped</a></li>
+                  <li><a href="#" class="link-dark rounded">Returned</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="border-top my-2"></li>
+            <li class="mb-1">
+              <button
+                class="btn btn-toggle align-items-center rounded collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#account-collapse"
+                aria-expanded="false"
+              >
+                Account
+              </button>
+              <div class="collapse" id="account-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded">New...</a></li>
+                  <li><a href="#" class="link-dark rounded">Profile</a></li>
+                  <li><a href="#" class="link-dark rounded">Settings</a></li>
+                  <li><a href="#" class="link-dark rounded">Sign out</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="container">
+          <h1 class="title">Introduction</h1>
+          <p>
+            The aim of this project-based web development training is to help
+            students become full stack developers. Web Design, Frontend
+            Development (HTML5, CSS3, Javascript), Backend Development (Node js
+            and Express js), and Database System (MySQL) are all covered
+            throughout this training. Throughout this training, we'll look at a
+            variety of resources, including VS Code, Adobe XD, and wamp.
+          </p>
+          <p>
+            During this course, we will be creating a Mini-Social Media Web
+            Application that will be able to register users, authenticate users,
+            fetch posts, edit posts, and delete posts.
+          </p>
+          <p>
+            Upon completion of this training you will be able to understand and
+            work with the tools and technologies mentioned in above.
+          </p>
+          <h2 class="heading">Who can Participate?</h2>
+          <hr />
+          <p>
+            The training is open to those interested in learning Web
+            Development. To begin the journey, there are no prerequisites or
+            previous experience in technology needed.
+          </p>
+          <h2 class="heading">What are you going to get?</h2>
+          <hr />
+          <ul class="lists">
+            <li>You will be able to develop Static and Dynamic Web Apps</li>
+            <li>You will be able to understand Database systems</li>
+            <li>You will have your own Social Media Web App.</li>
+          </ul>
+          <h2 class="heading">What is Expected from you?</h2>
+          <hr />
+          <ol class="lists">
+            <li>Stay Motivated</li>
+            <li>Try working on your own examples.</li>
+            <li>Prepare for class by reading ahead.</li>
+            <li>Ask Questions</li>
+          </ol>
+          <h2 class="heading">About the Project</h2>
+          <hr />
+          <p>
+            Our project for this training is a Mini-Social Media Web
+            Application. The mini-Social Media Web App will be supporting
+            multiple users at a time and store data persistently. Features:
+          </p>
+          <ol class="lists">
+            <li>Enable users to register using [ Name, Email, Password]</li>
+            <li>
+              Enable users to Login to the system. Using their Email and
+              Password.
+            </li>
+            <li>Enable Users to edit their Account</li>
+            <li>Enable users to create Posts</li>
+            <li>Enable Users to view Posts</li>
+            <li>Enable users to edit Posts</li>
+            <li>Enable Users to delete Posts</li>
+            <li>Enable Users to Comment on Posts</li>
+          </ol>
+
+          <h2 class="heading">How are we going to Build the project</h2>
+          <hr />
+          <p>
+            The goal is to learn web development while developing this
+            mini-social media web application, so we'll use a development model
+            that enables us to start from the beginning and work our way up to
+            more complex web topics like backend development.
+          </p>
+          <h4 class="heading">First Phase-Web Designing</h4>
+          <hr />
+          <p>
+            The first step in designing every web application is to design how
+            the application will be organized and what will be on each page. In
+            the development and maintenance of websites, web design involves a
+            wide range of skills and disciplines. We will learn about the
+            importance of web design, the elements of web design, and the
+            principles of web design during this phase.
+          </p>
+          <p>Tools: <a href="#">Adobe XD</a></p>
+          <h4 class="heading">Second Phase-Frontend Skeleton</h4>
+          <hr />
+          <p>
+            We'll use HTML 5 to build the skeletal structure and layout the
+            elements of the web page in this phase. HTML5 is a markup language
+            that is used to structure and display content on the internet. It is
+            the fifth and final big HTML edition to be recommended by the World
+            Wide Web Consortium.
+          </p>
+          <p>Tools: <a href="#">HTML 5</a>, <a href="#">VS Code</a></p>
+
+          <h4 class="heading">Third Phase- Frontend Beautify</h4>
+          <hr />
+          <p>
+            In this phase, we are going to discuss styling web pages using CSS 3
+            and Bootstrap 5. CSS is the language we use to style a Web page.
+          </p>
+          <p>
+            Bootstrap is a free and open-source CSS framework directed at
+            responsive, mobile-first front-end web development. It contains CSS-
+            and JavaScript-based design templates for typography, forms,
+            buttons, navigation, and other interface components.
+          </p>
+          <p>
+            Tools: <a href="#">CSS 3</a>, <a href="#">Bootstrap 5</a>,
+            <a href="#">VS Code</a>
+          </p>
+          <h4 class="heading">Fourth Phase- Frontend Behavior</h4>
+          <hr />
+          <p>
+            To create a dynamic and interactive experience for the user in our
+            web apps we use a programming language named Javascript. In this
+            phase we will discuss fundamental programming concepts such as
+            variables, conditionals, functions, and Loop.
+          </p>
+          <p>Tools <a href="#">Javascript</a> ,<a href="#">VS Code</a></p>
+          <h4 class="heading">Fifth Phase- Database Design</h4>
+          <hr />
+          <p>
+            A database is typically designed so that it is easy to store and
+            access information. A good database is crucial to any web
+            application. This is because the database stores all the pertinent
+            details about our web app such as posts, comments, user data, and so
+            on…
+          </p>
+          <p>
+            Tools <a href="#">MySQL</a> ,<a href="#">WAMP</a> or
+            <a href="#">XAMPP</a>
+          </p>
+          <h4 class="heading">Sixth Phase: Backend Development</h4>
+          <hr />
+          <p>
+            In this phase we are going to build Learn about Node js and Express
+            js, which we are going to use to build an Application Program
+            Interface (API). The API will help us to communicate between our
+            frontend and backend.
+          </p>
+          <p>
+            Tools <a href="#">Node js</a> ,<a href="#">Express js</a>,
+            <a href="#">VS Code</a>
+          </p>
+          <h2 class="heading">Resources</h2>
+          <hr />
+          <p>
+            We will use the links mentioned below as a guide in the training,
+            and we expect you to go to these websites and read from there. We
+            will only share content related to the project on this page.
+          </p>
+
+          <ol class="lists">
+            <li><a href="#">W3Schools</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Node js</a></li>
+            <li><a href="#">Express js</a></li>
+          </ol>
+          <h6 class="heading">Ready to Start? Let's Go</h6>
+          <p>If you have any question, shoot them in the telegram group <a href="#"> Basic Web Development Classes.</a></p>
+          <div class="buttons">
+            <div class="btn-sec">
+              <button class="sec">Back</button>
+            </div>
+            <div class="btn-pri">
+              <button class="pri">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="sidebars.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

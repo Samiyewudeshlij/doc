@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.title{
+  margin-top: 70px;
+  color: rgb(28, 175, 168);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: start;
+}
+
+ p{
+     line-height: 1.7em;
+    color: rgb(85, 87, 87);
+    width: 80%;
+}
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(28, 175, 168);
+    font-weight: 500;
+    margin-top: 60px;
+}
+hr{
+    width: 80%;
+}
+.lists{
+    margin:1em 10%;
+}
+.lists li{
+    margin-bottom: 0.5em;
+}
+.btn-pri{
+    text-align: right;
+    margin-right: 20%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.pri{
+    
+    margin-top: 20px;
+    width: 5rem;
+    height: 2.9em;
+    border-radius: .3em;
+    border: none;
+    background-color: rgb(28, 175, 168);
+    color: white;
+}
+.sec{
+    margin-top: 20px;
+    width: 5rem;
+    height: 2.9em;
+    border-radius: .3em;
+    border: none;
+    background-color: rgb(96, 99, 99);
+    color: white;
+}
+.pri:hover{
+    background-color: rgb(30, 202, 194);
+}
+
